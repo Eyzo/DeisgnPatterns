@@ -1,0 +1,26 @@
+{
+    "name": "duham/design-pattern",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "App\\Test\\": "test/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Tony",
+            "email": "duhameltonyeyzo@gmail.com"
+        }
+    ],
+    "require": {
+        "twig/twig": "^3.4",
+        "symfony/var-dumper": "^6.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
